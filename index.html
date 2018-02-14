@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="20">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="20">
+        <button type="submit" id="btn">Make Grid</button>
+        <!-- <input type="submit"> -->
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <!--<div >
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Pink.png">
+
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Orange.png">
+
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Green.png">
+
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Red.png">
+    </div>-->
+
+    <div id="pinkGhost">
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Pink.png">
+    </div>
+
+    <div id="orangeGhost">
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Orange.png">
+    </div>
+
+    <div id="greenGhost">
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Green.png">
+    </div>
+
+    <div id="redGhost">
+      <img class="ghostIMG" src="img/Pac-Man-Ghost-Red.png">
+    </div>
+
+    <div id="pMan">
+      <img class="Pac-Man" src="img/Pacman200px.svg">
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="designs.js"></script>
+
+</body>
+</html>
